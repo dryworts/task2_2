@@ -3,7 +3,7 @@ public class Main {
         int balance = 100;
         int bonus = 0;
         int refill = 1100;
-        if (refill >= 1000) {
+        if (refill > 1000) {
             bonus += refill / 100;
         }
 
